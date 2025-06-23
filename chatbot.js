@@ -93,8 +93,8 @@ If the user asks anything else, reply: "Please ask questions related to this cod
 }
 
 async function getAIResponse(userInput, context) {
-    const apiKey = API_KEY; // Ensure API_KEY is defined in your environment
-    
+    const apiKey = API_KEY; 
+
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
     try {
