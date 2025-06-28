@@ -1,41 +1,40 @@
-# Chrome-Extension-Base-Template
-This is a basic Chrome Extension base template for starting new projects off of initialized with a MIT license.
+# 🧠 AI Helper for Maang.in
 
-## Features
-- ..
-- ..
-- ..
+An intelligent Chrome Extension that integrates a floating AI chatbot directly into Maang.in's coding platform to assist users with problem-specific queries using the Gemini API.
 
-## Author
-First Last
-- [Author Website]()
-- [Author Github]()
-- [Project Repository]()
+---
 
-## Requirements
-### Knowledge
-- HTML
-- CSS
-- Javascript
-- Chrome API
-### Tools
-- Google Chrome Browser
-- IDE or Text Editor of Your Choice
+## 🚀 Features
 
-## Setup Instructions
-### For Developers
-1. Make a clone of this project, unzipped.
-2. Open Chrome Browser
-3. In a new or blank tab, type in "chrome://extensions/" (without the quotes of course) and click [Enter].
-4. At the top right corner of the page, **enable** "Developer Mode"
-5. Click the button on the page that says "Load Unpacked"
-6. Navigate to your unzipped project folder and select that and hit OK.
-7. You are now ready to start working on the extension! Just make sure you reload after each change you make to see the changes take place.
+- 🔹 **Floating AI Chatbot UI** embedded on coding problem pages  
+- 🔹 **Gemini API integration** for real-time, contextual code assistance  
+- 🔹 **Problem-aware prompt design** to ensure only relevant queries are answered  
+- 🔹 **Typing animation**, code formatting, and modern UI with CSS effects  
+- 🔹 **SPA support** using `MutationObserver` to handle route changes dynamically  
 
-### For End Users
-1. ...
-2. ...
-3. ...
+---
 
-## License
-Please refer to LICENSE file.
+## 📦 Installation
+
+1. Clone or download the extension folder
+2. Open Chrome and go to `chrome://extensions`
+3. Enable **Developer Mode** (top right)
+4. Click **"Load unpacked"** and select the extension directory
+
+---
+
+## 🔧 Tech Stack
+
+- HTML, CSS, JavaScript
+- Gemini API (via `fetch`)
+- DOM manipulation & `MutationObserver`
+- Chrome Extension Manifest v3
+
+---
+
+## 📌 Note
+
+This chatbot is designed to assist **only within the context of the current coding problem**.  
+If you ask anything unrelated, it will politely reject the query.
+
+---
